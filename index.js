@@ -3,9 +3,10 @@ var exphbs  = require('express3-handlebars');
 var app = express();
 app.use(express.logger());
 
-// [todo] : Support for fontsize in URL
+// [todo] : Support for headerlevel/fontsize in URL
 // [todo] : Support for color in URL
 // [todo] : Support for background-color in URL
+// [todo] : '/' URL should display usage instruction and other info.
 
 app.set('title', 'Aakar Font Showcase');
 
