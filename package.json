@@ -1,6 +1,6 @@
 {
   "name": "fonts-aakar-showcase",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Express web app that showcases Aakar Gujarati Unicode Fonts in Gujarati text you desire.",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,9 @@
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/samyakbhuta/fonts-aakar-showcase/issues"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "express3-handlebars": "~0.5.0"
   }
 }
