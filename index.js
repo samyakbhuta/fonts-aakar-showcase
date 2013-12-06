@@ -1,6 +1,7 @@
 var express = require('express');
 var exphbs  = require('express3-handlebars');
 var app = express();
+var port = process.env.PORT || 3000;
 app.use(express.logger());
 
 // [todo] : '/' URL should display usage instruction and other info.
@@ -23,5 +24,5 @@ app.get('/:text/:fontSize?/:color?/:bgColor?', function(req, res){
 	bgColor : req.params.bgColor
   });
 });
-
-app.listen(3000);
+console.log("Listening on ... ", port);
+app.listen(port);
