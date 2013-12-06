@@ -3,8 +3,6 @@ var exphbs  = require('express3-handlebars');
 var app = express();
 app.use(express.logger());
 
-// [todo] : Support for color in URL
-// [todo] : Support for background-color in URL
 // [todo] : '/' URL should display usage instruction and other info.
 
 app.set('title', 'Aakar Font Showcase');
@@ -18,9 +16,11 @@ app.set('view engine', 'handlebars');
 // But putting such artificial filter doesn't look 'hackable'.
 // Avoiding Gujarati Unicode Only check.
 
-app.get('/:text/:fontSize?', function(req, res){
+app.get('/:text/:fontSize?/:color?/:bgColor?', function(req, res){
   res.render('showcase-page',{ text:req.params.text,
- 	fontSize : req.params.fontSize+"px"
+	fontSize : req.params.fontSize+"px",
+	color : req.params.color,
+	bgColor : req.params.bgColor
   });
 });
 
