@@ -17,7 +17,11 @@ Simple API
 
 Fun Hacks with API
 ------------------
+
+### Platform for message passing
 This simple API can be fun to use as platform to pass message. Send people simple message. E.g. [this](http://fonts-aakar-showcase.herokuapp.com/%E0%AA%B8%E0%AA%B0%E0%AA%B8!/160/) or [this](http://fonts-aakar-showcase.herokuapp.com/You%20are%20my%20hero!/100/white/grey).
 
 You just need to change the URL string accordingly. If you think that message string in URL might act as spoiler, you can use some URL shortner service !
 
+### Test the font rendering
+[Try](http://fonts-aakar-showcase.herokuapp.com/%E0%AA%93%E0%AA%AA%E0%AA%A8%20%E0%AA%B8%E0%AB%8B%E0%AA%B0%E0%AB%8D%E0%AA%B8/300/) or even [bigger size](http://fonts-aakar-showcase.herokuapp.com/%E0%AA%93%E0%AA%AA%E0%AA%A8%20%E0%AA%B8%E0%AB%8B%E0%AA%B0%E0%AB%8D%E0%AA%B8/600/) ( where you may have to scrolldown to see the text). With such size **font are exposed wide open**. Analyse the font glyphs closely. You will see where they are overlapping. Where are 'cracks'. Where the curve is not perfect or is not curve at all but polygon. You can always find such rendering issues and [report it](https://github.com/kartikm/fonts-aakar/issues).
