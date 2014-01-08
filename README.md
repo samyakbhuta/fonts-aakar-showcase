@@ -25,3 +25,6 @@ You just need to change the URL string accordingly. If you think that message st
 
 ### Test the font rendering
 [Try](http://fonts-aakar-showcase.herokuapp.com/%E0%AA%93%E0%AA%AA%E0%AA%A8%20%E0%AA%B8%E0%AB%8B%E0%AA%B0%E0%AB%8D%E0%AA%B8/300/) or even [bigger size](http://fonts-aakar-showcase.herokuapp.com/%E0%AA%93%E0%AA%AA%E0%AA%A8%20%E0%AA%B8%E0%AB%8B%E0%AA%B0%E0%AB%8D%E0%AA%B8/600/) ( where you may have to scrolldown to see the text). With such size **font are exposed wide open**. Analyse the font glyphs closely. You will see where they are overlapping. Where are 'cracks'. Where the curve is not perfect or is not curve at all but polygon. You can always find such rendering issues and [report it](https://github.com/kartikm/fonts-aakar/issues).
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/samyakbhuta/fonts-aakar-showcase/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
